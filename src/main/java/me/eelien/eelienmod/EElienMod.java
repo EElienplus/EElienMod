@@ -62,7 +62,11 @@ public class EElienMod {
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TIN);
-            event.accept(ModItems.TIN_ORE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TIN_BLOCK);
+            event.accept(ModBlocks.TIN_ORE);
+
         }
 
     }

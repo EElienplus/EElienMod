@@ -13,8 +13,7 @@ public class ModItems {
     public static final DeferredItem<Item> TIN = ITEMS.register("tin",
             () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> TIN_ORE = ITEMS.register("tin_ore",
-            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

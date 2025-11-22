@@ -1,4 +1,6 @@
 {
   "item.eelienmod.tin": "Tin Ingot",
-  "item.eelienmod.tin_ore": "Tin Ore"
+
+  "block.eelienmod.tin_ore": "Tin Ore",
+  "block.eelienmod.tin_block": "Block Of Tin"
 }
