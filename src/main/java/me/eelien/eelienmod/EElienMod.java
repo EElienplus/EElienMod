@@ -1,5 +1,7 @@
 package me.eelien.eelienmod;
 
+import me.eelien.eelienmod.block.ModBlocks;
+import me.eelien.eelienmod.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -43,6 +45,9 @@ public class EElienMod {
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -54,6 +59,11 @@ public class EElienMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.TIN);
+            event.accept(ModItems.TIN_ORE);
+        }
 
     }
 
