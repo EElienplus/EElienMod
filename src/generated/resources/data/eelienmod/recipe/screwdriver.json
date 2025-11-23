@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "eelienmod:tin"
+    }
+  },
+  "pattern": [
+    "CT ",
+    "TS ",
+    "  S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "eelienmod:screwdriver"
+  }
+}
