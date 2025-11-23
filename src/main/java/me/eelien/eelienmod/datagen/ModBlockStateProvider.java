@@ -11,9 +11,8 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 public class ModBlockStateProvider extends BlockStateProvider {
 
     // Constructor should take the mod ID as a String argument
-    public ModBlockStateProvider(PackOutput output, String modid, ExistingFileHelper exFileHelper) {
-        super(output, modid, exFileHelper);
-    }
+    public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
+        super(output, EElienMod.MODID, exFileHelper);    }
 
     @Override
     protected void registerStatesAndModels() {

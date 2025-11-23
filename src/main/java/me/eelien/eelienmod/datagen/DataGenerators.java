@@ -1,7 +1,7 @@
 package me.eelien.eelienmod.datagen;
 
 import me.eelien.eelienmod.EElienMod;
-import net.kaupenjoe.tutorialmod.TutorialMod;
+import me.eelien.eelienmod.EElienMod;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
