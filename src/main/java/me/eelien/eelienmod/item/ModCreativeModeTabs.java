@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModBlocks.TIN_BLOCK);
                 output.accept(ModBlocks.TIN_ORE);
                 output.accept(ModItems.STARLIGHT_ASHES);
+                output.accept(ModBlocks.LAMP);
             })
             .build());
 

@@ -31,6 +31,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         // Nemusi to bejt ore drops. muze to bejt cokoliv v cmd+left / createMultipleOreDrops.
         dropSelf(ModBlocks.TIN_BLOCK.get());
         dropSelf(ModBlocks.TIN_ORE.get());
+        dropSelf(ModBlocks.LAMP.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

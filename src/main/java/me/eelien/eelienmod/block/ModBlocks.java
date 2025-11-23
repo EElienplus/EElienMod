@@ -1,6 +1,7 @@
 package me.eelien.eelienmod.block;
 
 import me.eelien.eelienmod.EElienMod;
+import me.eelien.eelienmod.block.custom.LampBlock;
 import me.eelien.eelienmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -28,6 +29,11 @@ public class ModBlocks {
             .strength(4f)
             .requiresCorrectToolForDrops()
             .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> LAMP = registerBlock("lamp, ",
+            () -> new LampBlock(BlockBehaviour.Properties.of().strength(2f)
+                    .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(LampBlock.CLICKED) ? 15 : 0)));
+
 
 
     public static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
