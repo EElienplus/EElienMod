@@ -1,6 +1,7 @@
 package me.eelien.eelienmod;
 
 import me.eelien.eelienmod.block.ModBlocks;
+import me.eelien.eelienmod.item.ModCreativeModeTabs;
 import me.eelien.eelienmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -45,6 +46,7 @@ public class EElienMod {
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 

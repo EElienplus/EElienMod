@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "eelienmod:blocks/tin_ore"
+    "all": "eelienmod:block/tin_ore"
   }
 }

@@ -1,6 +1,11 @@
 {
   "item.eelienmod.tin": "Tin Ingot",
+  "item.eelienmod.screwdriver": "Screwdriver",
+  "item.eelienmod.starlight_ashes": "Starlight Ashes",
 
   "block.eelienmod.tin_ore": "Tin Ore",
-  "block.eelienmod.tin_block": "Block Of Tin"
+  "block.eelienmod.tin_block": "Block Of Tin",
+
+  "creativetab.eelienmod.eelienmod": "EElien MOD"
+
 }
