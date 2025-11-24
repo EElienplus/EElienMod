@@ -32,6 +32,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.TIN_BLOCK.get());
         dropSelf(ModBlocks.TIN_ORE.get());
         dropSelf(ModBlocks.LAMP.get());
+        dropSelf(ModBlocks.RUBY_BLOCK.get());
+        dropSelf(ModBlocks.RUBY_ORE.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

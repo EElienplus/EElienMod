@@ -1,9 +1,13 @@
-// 1.21.1	2025-11-23T12:23:58.40712	Recipes
+// 1.21.1	2025-11-24T17:50:55.637236	Recipes
+fcb063e3e548f1a5f8dd2e9df17459dc7aea2af7 data/eelienmod/advancement/recipes/misc/ruby.json
+b5725168e56597735b1319bc6caa1aa13d62e72f data/eelienmod/advancement/recipes/misc/ruby_block.json
 36dd7625d794fbd84dd824ed63b1d942263d743e data/eelienmod/advancement/recipes/misc/tin.json
 f1875f95134e6f66a8deac01cc64cc6f9b8bceb3 data/eelienmod/advancement/recipes/misc/tin_block.json
 57b519a27423bb7976a6b54272e2459c8cc4f40f data/eelienmod/advancement/recipes/misc/tin_from_blasting_tin_ore.json
 6ce3fcdc3cd12825d84e316be875c6d1288362b4 data/eelienmod/advancement/recipes/misc/tin_from_smelting_tin_ore.json
 59220c9955c5890544e41a21416f7f95d04e2b3a data/eelienmod/advancement/recipes/tools/screwdriver.json
+fb16be9f20cd1fd95a3672adab30171554a487b7 data/eelienmod/recipe/ruby.json
+8e02b5b34f17ac6548ee4f6c1b180f03f1d2655a data/eelienmod/recipe/ruby_block.json
 da900756491b22283a31f4ff750e3676ad8c409a data/eelienmod/recipe/screwdriver.json
 77081732a2ac94101177e394b10a39c145ddabd4 data/eelienmod/recipe/tin.json
 15497a9e3df5641735326833dbe51471874faae2 data/eelienmod/recipe/tin_block.json

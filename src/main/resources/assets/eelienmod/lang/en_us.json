@@ -7,6 +7,14 @@
   "block.eelienmod.tin_ore": "Tin Ore",
   "block.eelienmod.tin_block": "Block Of Tin",
   "block.eelienmod.lamp": "Lamp",
+  "block.eelienmod.ruby_block": "Block Of Ruby",
+  "block.eelienmod.ruby_ore": "Ruby Ore",
+
+  "item.eelienmod.ruby_sword": "Ruby Sword",
+  "item.eelienmod.ruby_axe": "Ruby Axe",
+  "item.eelienmod.ruby_shovel": "Ruby Shovel",
+  "item.eelienmod.hoe": "Ruby Hoe",
+  "item.eelienmod.ruby_pickaxe": "Ruby Pickaxe",
 
   "creativetab.eelienmod.eelienmod": "EElien MOD"
 

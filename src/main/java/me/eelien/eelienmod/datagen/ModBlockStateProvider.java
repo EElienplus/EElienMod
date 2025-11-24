@@ -24,6 +24,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         // These methods now exist because you extend the correct NeoForge class
         blockWithItem(ModBlocks.TIN_BLOCK);
         blockWithItem(ModBlocks.TIN_ORE);
+        blockWithItem(ModBlocks.RUBY_BLOCK);
+        blockWithItem(ModBlocks.RUBY_ORE);
 
         customLamp();
     }

@@ -1,11 +1,17 @@
-// 1.21.1	2025-11-23T13:01:56.14752	Block States: eelienmod
+// 1.21.1	2025-11-24T17:47:33.334895	Block States: eelienmod
 e8fd7b093ce276a2129346e1541854fa00bdef41 assets/eelienmod/blockstates/lamp.json
+13fb5555f4f315b5066ebfaab9eeab84b95697f6 assets/eelienmod/blockstates/ruby_block.json
+9a9209837e13971754e8e8b562bdb1412982eb1a assets/eelienmod/blockstates/ruby_ore.json
 b7b063529a9622d5d3c1aeabe561e38bbdc69f79 assets/eelienmod/blockstates/tin_block.json
 e5cd2d42ef6beb2bbca43dde882f378753255f46 assets/eelienmod/blockstates/tin_ore.json
 dc18ecfe7f93a2ce9bc998fec67db6bdf6e078a0 assets/eelienmod/models/block/lamp_off.json
 af2888a324ec16421fc19f22ca5080d2b1ddd42e assets/eelienmod/models/block/lamp_on.json
+818343fa71883d64d2384eb06b936ae754386029 assets/eelienmod/models/block/ruby_block.json
+033392267a3a5aa37bac4783209740d6caa2d0b7 assets/eelienmod/models/block/ruby_ore.json
 89be1baf0f414b2ca3ca3fd04dfd45bddf445874 assets/eelienmod/models/block/tin_block.json
 86d2e67bd49650dfa68f09c84c98e9eb207c0a78 assets/eelienmod/models/block/tin_ore.json
 2231e87245780a0e389f4d4416a94c870322b875 assets/eelienmod/models/item/lamp.json
+05d34b5cb9c625adbe16a1d52aa01cb3a8c93744 assets/eelienmod/models/item/ruby_block.json
+034f4fa934b1a799ad0c1500ac08eaf77ac00633 assets/eelienmod/models/item/ruby_ore.json
 d66bf19c5f811c139637204f6630374ecbbf397c assets/eelienmod/models/item/tin_block.json
 25b6cc48740ad6c0af263fea547ef6c94a2345d3 assets/eelienmod/models/item/tin_ore.json

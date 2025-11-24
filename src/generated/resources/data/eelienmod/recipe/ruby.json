@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eelienmod:ruby_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "eelienmod:ruby"
+  }
+}

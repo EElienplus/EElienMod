@@ -1,3 +1,4 @@
-// 1.21.1	2025-11-23T12:23:58.406523	Tags for minecraft:block mod id eelienmod
-399785fc2f843927f1fb3281fdfdb32923ebc614 data/minecraft/tags/block/mineable/pickaxe.json
+// 1.21.1	2025-11-24T17:47:33.335421	Tags for minecraft:block mod id eelienmod
+8ab9947203f74f251e19f2d0e526df14909c3848 data/minecraft/tags/block/mineable/pickaxe.json
+e282db9f0738d40a326d74948b5304322a59260d data/minecraft/tags/block/needs_iron_tool.json
 399785fc2f843927f1fb3281fdfdb32923ebc614 data/minecraft/tags/block/needs_stone_tool.json

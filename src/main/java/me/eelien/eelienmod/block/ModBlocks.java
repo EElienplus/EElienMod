@@ -34,6 +34,18 @@ public class ModBlocks {
             () -> new LampBlock(BlockBehaviour.Properties.of().strength(2f)
                     .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(LampBlock.CLICKED) ? 15 : 0)));
 
+    public static final DeferredBlock<Block> RUBY_BLOCK = registerBlock("ruby_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> RUBY_ORE = registerBlock("ruby_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
 
 
     public static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

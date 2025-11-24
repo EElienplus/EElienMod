@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "eelienmod:block/lamp_off"
+    },
+    "clicked=true": {
+      "model": "eelienmod:block/lamp_on"
+    }
+  }
+}

@@ -46,6 +46,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 // ------------------------------
                 .unlockedBy("has_TIN", has(ModItems.TIN)).save(recipeOutput); // Required to finish recipe
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RUBY_BLOCK.get())
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern("RRR")
+                .define('R', ModItems.RUBY.get())
+                .unlockedBy("has_RUBY", has(ModItems.RUBY)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RUBY.get(), 9)
+                .requires(ModBlocks.RUBY_BLOCK)
+                .unlockedBy("has_RUBY_block", has(ModBlocks.RUBY_BLOCK)).save(recipeOutput);
+
         oreSmelting(recipeOutput, TIN_SMELTABLES, RecipeCategory.MISC, ModItems.TIN.get(), 0.25f, 200, "TIN");
         oreBlasting(recipeOutput, TIN_SMELTABLES, RecipeCategory.MISC, ModItems.TIN.get(), 0.25f, 100, "TIN");
     }

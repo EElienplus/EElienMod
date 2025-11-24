@@ -26,6 +26,15 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.STARLIGHT_ASHES);
                 output.accept(ModBlocks.LAMP);
                 output.accept(ModItems.RUBY);
+                output.accept(ModBlocks.RUBY_ORE);
+                output.accept(ModBlocks.RUBY_BLOCK);
+
+                output.accept(ModItems.RUBY_SWORD);
+                output.accept(ModItems.RUBY_PICKAXE);
+                output.accept(ModItems.RUBY_AXE);
+                output.accept(ModItems.RUBY_SHOVEL);
+                output.accept(ModItems.RUBY_HOE);
+                
             })
             .build());
 
