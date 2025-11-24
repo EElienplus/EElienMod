@@ -1,2 +1,7 @@
-// 1.21.1	2025-11-23T12:23:58.406963	Tags for minecraft:item mod id eelienmod
+// 1.21.1	2025-11-24T19:01:46.60299	Tags for minecraft:item mod id eelienmod
 a71c42a380d339a5ec56e0f91bed3c2132f6bf38 data/eelienmod/tags/item/transformable_items.json
+3243b01d40b971e7586be161668c5cc202712ce5 data/minecraft/tags/item/axes.json
+779dffc059f0543f1ce4df60ef72795a8758d5fd data/minecraft/tags/item/hoes.json
+138afa0ff9dc4648848eacda4e991e6cd12b9dd2 data/minecraft/tags/item/pickaxes.json
+2fd283c16167790f11000986b80470c9bda677aa data/minecraft/tags/item/shovels.json
+3e074b3ef6b2732e457a354d3a7d2c1fd2cf5335 data/minecraft/tags/item/swords.json
