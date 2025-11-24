@@ -14,7 +14,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.TIN.get());
-
+        basicItem(ModItems.RUBY.get());
         basicItem(ModItems.STARLIGHT_ASHES.get());
         basicItem(ModItems.SCREWDRIVER.get());
     }

@@ -30,7 +30,7 @@ public class ModBlocks {
             .requiresCorrectToolForDrops()
             .sound(SoundType.STONE)));
 
-    public static final DeferredBlock<Block> LAMP = registerBlock("lamp, ",
+    public static final DeferredBlock<Block> LAMP = registerBlock("lamp",
             () -> new LampBlock(BlockBehaviour.Properties.of().strength(2f)
                     .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(LampBlock.CLICKED) ? 15 : 0)));
 

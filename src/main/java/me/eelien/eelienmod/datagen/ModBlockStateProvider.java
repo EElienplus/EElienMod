@@ -40,7 +40,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         });
 
         simpleBlockItem(ModBlocks.LAMP.get(), models().cubeAll("lamp_on",
-                ResourceLocation.fromNamespaceAndPath(EElienMod.MODID, "block/" + "on")));
+                ResourceLocation.fromNamespaceAndPath(EElienMod.MODID, "block/" + "lamp_on")));
     }
 
     // Helper method is fine, assuming it uses the correct methods from the superclass

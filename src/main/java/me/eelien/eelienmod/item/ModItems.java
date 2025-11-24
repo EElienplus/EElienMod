@@ -1,7 +1,10 @@
 package me.eelien.eelienmod.item;
 
 import me.eelien.eelienmod.EElienMod;
+// --- Custom Class Imports ---
 import me.eelien.eelienmod.item.custom.ScrewdriverItem;
+import me.eelien.eelienmod.item.FuelItem; // <-- FIX: Added the missing import for FuelItem
+// ----------------------------
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -19,6 +22,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> STARLIGHT_ASHES = ITEMS.register("starlight_ashes",
             () -> new FuelItem(new Item.Properties(), 6400));
+
+    public static final DeferredItem<Item> RUBY = ITEMS.register("ruby",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
