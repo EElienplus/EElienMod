@@ -1,10 +1,19 @@
-// 1.21.1	2025-11-24T19:01:46.602749	Item Models: eelienmod
+// 1.21.1	2025-11-29T18:59:32.347169	Item Models: eelienmod
+3e617ccfea3bfdaf01a8e3f58c243a7311db1095 assets/eelienmod/models/item/amber.json
+c5b6bf2c82ebfdea0a874fd0ea90e2573e5360e4 assets/eelienmod/models/item/diamond_stick.json
+a3a69bf8e7019f605c2faed9d6bdd30157102670 assets/eelienmod/models/item/iridium.json
+7a9fcc4c3fcceab3287858c04da9d898690c3bb5 assets/eelienmod/models/item/nickel.json
+9b8563e862ae5e5f3bad515a528bc8baff66e1f3 assets/eelienmod/models/item/obsidian_hammer.json
 f0c45e8736a30a821fb34d8d631e6d8b207f3312 assets/eelienmod/models/item/ruby.json
 21703ead88a268d46848300880a9b365655d9058 assets/eelienmod/models/item/ruby_axe.json
+3d365e2b5e66256e83740381ced61dc043eaf356 assets/eelienmod/models/item/ruby_hammer.json
 b03e9e6d0d301c550dd73570eef5d03de25bf38b assets/eelienmod/models/item/ruby_hoe.json
 8bfc70bd74ce951bfc43ca1499d5b76ccacf051d assets/eelienmod/models/item/ruby_pickaxe.json
 75de13a477138658680783f082ed81e859e0cd7c assets/eelienmod/models/item/ruby_shovel.json
 ea75407a47180053eac1dd8006bad98ec8d78574 assets/eelienmod/models/item/ruby_sword.json
 9a2325e30a788e099b705f661bd67e0b0637558c assets/eelienmod/models/item/screwdriver.json
 16ab725054d9b3a4e4742870499986bbb579a483 assets/eelienmod/models/item/starlight_ashes.json
+6ae484621dc856365adc55f0735e35757bbc6454 assets/eelienmod/models/item/sulfur.json
 744cb13276786d34113d0d1a7d0e4d8239110ffb assets/eelienmod/models/item/tin.json
+0337ec60603832a41e7d72b22585d45c2b858ae8 assets/eelienmod/models/item/titanium.json
+ddad8c6ad45424fd4425fe50005db9651ba0aa7a assets/eelienmod/models/item/uranium.json

@@ -26,6 +26,18 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.TIN_ORE);
         blockWithItem(ModBlocks.RUBY_BLOCK);
         blockWithItem(ModBlocks.RUBY_ORE);
+        blockWithItem(ModBlocks.URANIUM_BLOCK);
+        blockWithItem(ModBlocks.URANIUM_ORE);
+        blockWithItem(ModBlocks.NICKEL_BLOCK);
+        blockWithItem(ModBlocks.NICKEL_ORE);
+        blockWithItem(ModBlocks.SULFUR_BLOCK);
+        blockWithItem(ModBlocks.SULFUR_ORE);
+        blockWithItem(ModBlocks.IRIDIUM_BLOCK);
+        blockWithItem(ModBlocks.IRIDIUM_ORE);
+        blockWithItem(ModBlocks.AMBER_BLOCK);
+        blockWithItem(ModBlocks.AMBER_ORE);
+        blockWithItem(ModBlocks.TITANIUM_BLOCK);
+        blockWithItem(ModBlocks.TITANIUM_ORE);
 
         customLamp();
     }

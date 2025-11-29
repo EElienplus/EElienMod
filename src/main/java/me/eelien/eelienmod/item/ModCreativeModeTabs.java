@@ -28,13 +28,34 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.RUBY);
                 output.accept(ModBlocks.RUBY_ORE);
                 output.accept(ModBlocks.RUBY_BLOCK);
+                output.accept(ModBlocks.NICKEL_BLOCK);
+                output.accept(ModBlocks.NICKEL_ORE);
+                output.accept(ModBlocks.IRIDIUM_BLOCK);
+                output.accept(ModBlocks.IRIDIUM_ORE);
+                output.accept(ModBlocks.SULFUR_ORE);
+                output.accept(ModBlocks.SULFUR_BLOCK);
+                output.accept(ModBlocks.URANIUM_BLOCK);
+                output.accept(ModBlocks.URANIUM_ORE);
+                output.accept(ModBlocks.AMBER_BLOCK);
+                output.accept(ModBlocks.AMBER_ORE);
+                output.accept(ModBlocks.TITANIUM_ORE);
+                output.accept(ModBlocks.TITANIUM_BLOCK);
 
                 output.accept(ModItems.RUBY_SWORD);
                 output.accept(ModItems.RUBY_PICKAXE);
                 output.accept(ModItems.RUBY_AXE);
                 output.accept(ModItems.RUBY_SHOVEL);
                 output.accept(ModItems.RUBY_HOE);
-                
+                output.accept(ModItems.RUBY_HAMMER);
+                output.accept(ModItems.OBSIDIAN_HAMMER);
+                output.accept(ModItems.DIAMOND_STICK);
+                output.accept(ModItems.NICKEL);
+                output.accept(ModItems.IRIDIUM);
+                output.accept(ModItems.SULFUR);
+                output.accept(ModItems.URANIUM);
+                output.accept(ModItems.AMBER);
+                output.accept(ModItems.TITANIUM);
+
             })
             .build());
 

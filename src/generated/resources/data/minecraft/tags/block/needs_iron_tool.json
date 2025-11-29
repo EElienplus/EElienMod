@@ -1,6 +1,10 @@
 {
   "values": [
     "eelienmod:ruby_block",
-    "eelienmod:ruby_ore"
+    "eelienmod:ruby_ore",
+    "eelienmod:nickel_ore",
+    "eelienmod:nickel_block",
+    "eelienmod:sulfur_ore",
+    "eelienmod:sulfur_block"
   ]
 }

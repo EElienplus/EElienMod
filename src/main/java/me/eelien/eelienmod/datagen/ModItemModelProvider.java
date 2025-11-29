@@ -18,14 +18,23 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ModItems.TIN.get());
         basicItem(ModItems.RUBY.get());
+        basicItem(ModItems.SULFUR.get());
+        basicItem(ModItems.NICKEL.get());
+        basicItem(ModItems.URANIUM.get());
+        basicItem(ModItems.IRIDIUM.get());
         basicItem(ModItems.STARLIGHT_ASHES.get());
         basicItem(ModItems.SCREWDRIVER.get());
+        basicItem(ModItems.AMBER.get());
+        basicItem(ModItems.TITANIUM.get());
 
         handheldItem(ModItems.RUBY_SWORD);
         handheldItem(ModItems.RUBY_PICKAXE);
         handheldItem(ModItems.RUBY_SHOVEL);
         handheldItem(ModItems.RUBY_AXE);
         handheldItem(ModItems.RUBY_HOE);
+        handheldItem(ModItems.RUBY_HAMMER);
+        handheldItem(ModItems.OBSIDIAN_HAMMER);
+        handheldItem(ModItems.DIAMOND_STICK);
 
 
     }

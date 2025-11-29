@@ -1,6 +1,8 @@
 {
   "values": [
     "eelienmod:tin_block",
-    "eelienmod:tin_ore"
+    "eelienmod:tin_ore",
+    "eelienmod:amber_block",
+    "eelienmod:amber_ore"
   ]
 }

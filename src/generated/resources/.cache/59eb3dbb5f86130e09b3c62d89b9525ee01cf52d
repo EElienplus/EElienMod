@@ -1,6 +1,18 @@
-// 1.21.1	2025-11-24T17:47:33.335653	Loot Tables
+// 1.21.1	2025-11-29T18:59:32.347669	Loot Tables
+f587c6f46d0d686a7d3edfd7898eab65738a9543 data/eelienmod/loot_table/blocks/amber_block.json
+54551b9d1fb061f3fcf719364cdc45d2a3e1fc3d data/eelienmod/loot_table/blocks/amber_ore.json
+469957def9de1de2d66cc5244751cdfeb1d90ffa data/eelienmod/loot_table/blocks/iridium_block.json
+4e476e6a6d2205b66041e172cd2cd267ddf4016f data/eelienmod/loot_table/blocks/iridium_ore.json
 c09fd688b98206beaeee7bbf1a7a9ebc3dab60c8 data/eelienmod/loot_table/blocks/lamp.json
+1a764da4cacdae638a4b168683ef58a95c660db0 data/eelienmod/loot_table/blocks/nickel_block.json
+df8a90be83817a827ce426901ad6b3fe73599617 data/eelienmod/loot_table/blocks/nickel_ore.json
 80b740f75bff965be8e15cfde6308d72bdf9d722 data/eelienmod/loot_table/blocks/ruby_block.json
 315e078596b47a57f02aefd43016f9014bb9df83 data/eelienmod/loot_table/blocks/ruby_ore.json
+39e00bd1f141639dce215ab09d3d04c8ebbd8cda data/eelienmod/loot_table/blocks/sulfur_block.json
+958b972148ca971e7afd8b6cf757d5fe371e829a data/eelienmod/loot_table/blocks/sulfur_ore.json
 5582f68f832167c93ea1ccb0831121ea70d2c302 data/eelienmod/loot_table/blocks/tin_block.json
 50e7e845b19016db41e1cea6e3bc9721b678c451 data/eelienmod/loot_table/blocks/tin_ore.json
+30d5d5c6f4e1ad54eca1dcba9e079a7070349b9b data/eelienmod/loot_table/blocks/titanium_block.json
+f8ac91c73baa63261c383de632e32cd49a6ab32f data/eelienmod/loot_table/blocks/titanium_ore.json
+741b58a732ef2f54c8e091ef083521b0fd631588 data/eelienmod/loot_table/blocks/uranium_block.json
+e41745a691e3d367de13fdbcd0e560717db7a694 data/eelienmod/loot_table/blocks/uranium_ore.json

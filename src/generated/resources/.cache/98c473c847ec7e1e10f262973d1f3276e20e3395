@@ -1,6 +1,7 @@
-// 1.21.1	2025-11-24T19:01:46.602117	Tags for minecraft:block mod id eelienmod
+// 1.21.1	2025-11-29T18:59:32.34635	Tags for minecraft:block mod id eelienmod
 c798349c60ec3afe95b26ae5d11d9e4e0ebba27a data/eelienmod/tags/block/incorrect_for_ruby_tool.json
 a7054fe2c6056c59ad7b0b81da9a31cd1bdc1f5f data/eelienmod/tags/block/needs_ruby_tool.json
-8ab9947203f74f251e19f2d0e526df14909c3848 data/minecraft/tags/block/mineable/pickaxe.json
-e282db9f0738d40a326d74948b5304322a59260d data/minecraft/tags/block/needs_iron_tool.json
-399785fc2f843927f1fb3281fdfdb32923ebc614 data/minecraft/tags/block/needs_stone_tool.json
+e5af791b8fa66cbaa331bcebf0f5c6d33ceda46a data/minecraft/tags/block/mineable/pickaxe.json
+fb4a7fa22c62d30200662922e82af1c1ae890e1f data/minecraft/tags/block/needs_diamond_tool.json
+d9b07ebdc42fd36d46ff7c3edcaa05f8e7e0e7ec data/minecraft/tags/block/needs_iron_tool.json
+f51120ef503bc871c5a2277f8b4d0fd49aad1e4d data/minecraft/tags/block/needs_stone_tool.json

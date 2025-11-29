@@ -23,16 +23,39 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.TIN_BLOCK.get())
                 .add(ModBlocks.TIN_ORE.get())
                 .add(ModBlocks.RUBY_BLOCK.get())
-                .add(ModBlocks.RUBY_ORE.get());
+                .add(ModBlocks.RUBY_ORE.get())
+                .add(ModBlocks.IRIDIUM_ORE.get())
+                .add(ModBlocks.IRIDIUM_BLOCK.get())
+                .add(ModBlocks.NICKEL_ORE.get())
+                .add(ModBlocks.NICKEL_BLOCK.get())
+                .add(ModBlocks.SULFUR_ORE.get())
+                .add(ModBlocks.SULFUR_BLOCK.get())
+                .add(ModBlocks.AMBER_BLOCK.get())
+                .add(ModBlocks.AMBER_ORE.get())
+                .add(ModBlocks.TITANIUM_BLOCK.get())
+                .add(ModBlocks.TITANIUM_ORE.get());
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.TIN_BLOCK.get())
-                .add(ModBlocks.TIN_ORE.get());
+                .add(ModBlocks.TIN_ORE.get())
+                .add(ModBlocks.AMBER_BLOCK.get())
+                .add(ModBlocks.AMBER_ORE.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RUBY_BLOCK.get())
-                .add(ModBlocks.RUBY_ORE.get());
+                .add(ModBlocks.RUBY_ORE.get())
+                .add(ModBlocks.NICKEL_ORE.get())
+                .add(ModBlocks.NICKEL_BLOCK.get())
+                .add(ModBlocks.SULFUR_ORE.get())
+                .add(ModBlocks.SULFUR_BLOCK.get());
 
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.IRIDIUM_ORE.get())
+                .add(ModBlocks.IRIDIUM_BLOCK.get())
+                .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.URANIUM_BLOCK.get())
+                .add(ModBlocks.TITANIUM_BLOCK.get())
+                .add(ModBlocks.TITANIUM_ORE.get());
 
         tag(ModTags.Blocks.NEED_RUBY_TOOL)
                 .add(ModBlocks.LAMP.get())

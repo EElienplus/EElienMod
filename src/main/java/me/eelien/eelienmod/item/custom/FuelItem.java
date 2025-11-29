@@ -1,4 +1,4 @@
-package me.eelien.eelienmod.item;
+package me.eelien.eelienmod.item.custom;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

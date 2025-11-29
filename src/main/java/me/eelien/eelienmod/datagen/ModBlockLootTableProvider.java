@@ -1,6 +1,7 @@
 package me.eelien.eelienmod.datagen;
 
 import me.eelien.eelienmod.block.ModBlocks;
+import me.eelien.eelienmod.item.ModItems;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
@@ -19,6 +20,7 @@ import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 
 import java.util.Set;
 
+
 public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     protected ModBlockLootTableProvider(HolderLookup.Provider registries) {
@@ -34,6 +36,20 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.LAMP.get());
         dropSelf(ModBlocks.RUBY_BLOCK.get());
         dropSelf(ModBlocks.RUBY_ORE.get());
+        dropSelf(ModBlocks.NICKEL_ORE.get());
+        dropSelf(ModBlocks.IRIDIUM_ORE.get());
+        dropSelf(ModBlocks.NICKEL_BLOCK.get());
+        dropSelf(ModBlocks.SULFUR_BLOCK.get());
+        dropSelf(ModBlocks.URANIUM_BLOCK.get());
+        dropSelf(ModBlocks.URANIUM_ORE.get());
+        dropSelf(ModBlocks.IRIDIUM_BLOCK.get());
+        dropSelf(ModBlocks.AMBER_BLOCK.get());
+        dropSelf(ModBlocks.AMBER_ORE.get());
+        dropSelf(ModBlocks.TITANIUM_BLOCK.get());
+        dropSelf(ModBlocks.TITANIUM_ORE.get());
+        add(ModBlocks.SULFUR_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.SULFUR_ORE.get(), ModItems.SULFUR.get(), 1, 4));
+
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
